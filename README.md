@@ -19,7 +19,7 @@ Use this Flask app to initiate your project with less work. In this application 
 
 python (any version, preferably 3+), python-pip, virtualenv, virtualenvwrapper
 
-## Instalation
+## Installation
 
 First, clone this repository:
 
