@@ -5,6 +5,9 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 from flask_bootstrap import Bootstrap
 
+# An extension to rule them all
+from flask_security import Security, SQLAlchemyUserDatastore
+
 from config import config
 
 db = SQLAlchemy()
