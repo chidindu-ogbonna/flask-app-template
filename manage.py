@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
+from flask_migrate import Migrate, MigrateCommand
 from flask_script import Manager, Shell
 
 from app import create_app, db
-from flask_migrate import Migrate, MigrateCommand
 
 app = create_app('default')
 migrate = Migrate(app, db)
