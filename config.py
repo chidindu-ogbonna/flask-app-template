@@ -18,8 +18,9 @@ class Config(object):
 
     # flask_security configuration
     SECURITY_EMAIL_SENDER = ''
-    SECURITY_CONFIRMABLE = True  # adding a confirmed_at feature to the user model
-    SECURITY_TRACKABLE = True  # adding tracking of tthe user usage
+    # set to False, if not interested
+    SECURITY_CONFIRMABLE = True 
+    SECURITY_TRACKABLE = True 
 
     @staticmethod
     def init_app(app):
